@@ -1,0 +1,12 @@
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\MicroEntity.dll.config
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\MicroEntity.dll
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\MicroEntity.pdb
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\EntityFramework.dll
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\EntityFramework.xml
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\obj\Debug\MicroEntity.csprojAssemblyReference.cache
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\obj\Debug\MicroEntity.csproj.CoreCompileInputs.cache
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\obj\Debug\MicroEntity.csproj.CopyComplete
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\obj\Debug\MicroEntity.dll
+C:\Users\omaro\source\repos\ControlleCodeFirst\MicroEntity\obj\Debug\MicroEntity.pdb

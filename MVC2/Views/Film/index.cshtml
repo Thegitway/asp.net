@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MVC2.Models.Film>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Liste des films</h2>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(var => var.Titre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(var => var.Realisateur)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(itemmodel => item.Titre)
+    </td>
+    <td>
+        @Html.DisplayFor(itemmodel => item.Realisateur)
+    </td>
+    <td>
+        @Html.ActionLink("Voir le détail", "Details", new
+        {
+       id = item.Id
+        })
+    </td>
+    <td>
+        @Html.ActionLink("Modification", "Edit", new { id = item.Id })
+    </td>
+    <td>@Html.ActionLink("Supression", "Delete", new { id = item.Id })</td>
+</tr>
+    }
+
+</table>
+
+
+<h2>Liste des films</h2>
+@Html.ActionLink("Ajouter un Nouveau Film", "Create")

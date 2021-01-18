@@ -1,0 +1,22 @@
+﻿@model MVC2.Models.Film
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Detail d'un film</h2>
+<dl>
+    <dt>
+        @Html.DisplayNameFor(mode => mode.Titre)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.Titre)
+    </dd>
+    <dt>
+        @Html.DisplayNameFor(mode => mode.Realisateur)
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.Realisateur)
+    </dd>
+</dl>
+@Html.ActionLink("Retour à la liste", "Index")
+
